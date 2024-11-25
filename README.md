@@ -2,15 +2,28 @@
 
 A new Flutter project.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Table of contents
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 1. Introduction
+
+This project is a simple application that allows you to read text easily without worrying about the scroll speed.
+
+### Structure
+```
+lib/
+ ├── models/
+ │   └── teleprompter_text.dart        # Model handling data of Teleprompter
+ ├── services/
+ │   └── teleprompter_service.dart    # Handling logic related to data
+ ├── screens/
+ │   └── teleprompter_screen.dart     # Main interface of Teleprompter
+ │   └── home_screen.dart             # Home screen of application
+ ├── utils/
+ │   └── config.dart                  # Store common configuration (e.g. default scroll speed)
+ └── main.dart                        # Main entry of application
+```
